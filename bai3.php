@@ -10,15 +10,15 @@
 </head>
 <body>
 <form method="post">
-    <input type="text" name="nhap" placeholder="nhap so">
-    <input type="submit" value="check">
+    <input type="text" name="nhap" placeholder="Nhap so vao">
+    <input type="submit" value="An vao">
 <?php
 
 $cars = array(1, 5, 6, 9, 8, 7, 3, 2, 4);
 $a = 1;
 $b = 2;
 if ($a == $_POST["nhap"]) {
-    echo "<br><br> sum = " . array_sum($cars);
+    echo "sum = " . array_sum($cars);
 }
 if ($b == $_POST["nhap"]) {
     rsort($cars);
